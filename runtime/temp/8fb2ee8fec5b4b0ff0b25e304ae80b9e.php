@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./template/pc/rainbow/user\login.html";i:1568864515;s:65:"D:\wamp\www\tpshop_cyb\www\template\pc\rainbow\public\footer.html";i:1568702283;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:37:"./template/pc/rainbow/user\login.html";i:1616701752;s:54:"H:\www\lzx_mall\template\pc\rainbow\public\footer.html";i:1616701750;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +27,7 @@
 <div class="loginsum_main" style="background: #bf1919;">
     <div class="w1224 p">
         <div class="advertisement">
-            <?php $pid =11;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1569546000 and end_time >= 1569546000 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("1")->select();
+            <?php $pid =11;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1617105600 and end_time >= 1617105600 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("1")->select();
 if(is_array($ad_position) && !in_array($pid,array_keys($ad_position)) && $pid)
 {
   M("ad_position")->insert(array(

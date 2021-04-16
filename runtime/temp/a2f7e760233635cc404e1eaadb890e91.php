@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:37:"./template/pc/rainbow/user\index.html";i:1568702284;s:59:"D:\TPshop_tp5_20210401\template\pc\rainbow\user\header.html";i:1568702284;s:57:"D:\TPshop_tp5_20210401\template\pc\rainbow\user\menu.html";i:1568702284;s:61:"D:\TPshop_tp5_20210401\template\pc\rainbow\public\footer.html";i:1568702283;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:37:"./template/pc/rainbow/user\index.html";i:1616701752;s:52:"H:\www\lzx_mall\template\pc\rainbow\user\header.html";i:1616701752;s:50:"H:\www\lzx_mall\template\pc\rainbow\user\menu.html";i:1616701752;s:54:"H:\www\lzx_mall\template\pc\rainbow\public\footer.html";i:1616701750;}*/ ?>
 <!DOCTYPE html>
 <html>
 	<head>

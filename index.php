@@ -41,7 +41,7 @@ if(file_exists("./install/") && !file_exists("./install/install.lock")){
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
 //define('APP_DEBUG',false); debug tp5 里面已经改为 config.php 里面
 // 定义应用目录
-//define('APP_PATH','./Application/');
+//define('APP_PATH','./Application/');$hot_category
 //  定义插件目录
 define('PLUGIN_PATH', __DIR__ . '/plugins/');
 defined('UPLOAD_PATH') or define('UPLOAD_PATH','public/upload/'); // 编辑器图片上传路径

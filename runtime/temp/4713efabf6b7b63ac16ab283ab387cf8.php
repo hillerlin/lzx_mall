@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:37:"./template/pc/rainbow/cart\cart2.html";i:1568702283;s:66:"D:\TPshop_tp5_20210401\template\pc\rainbow\public\sign-header.html";i:1568702283;s:61:"D:\TPshop_tp5_20210401\template\pc\rainbow\public\footer.html";i:1568702283;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:37:"./template/pc/rainbow/cart\cart2.html";i:1616701750;s:59:"H:\www\lzx_mall\template\pc\rainbow\public\sign-header.html";i:1616701750;s:54:"H:\www\lzx_mall\template\pc\rainbow\public\footer.html";i:1616701750;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,7 +19,7 @@
 </head>
 <body>
 <!--顶部广告-s-->
-<?php $pid =1;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1616526000 and end_time >= 1616526000 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("1")->select();
+<?php $pid =1;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1617105600 and end_time >= 1617105600 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("1")->select();
 if(is_array($ad_position) && !in_array($pid,array_keys($ad_position)) && $pid)
 {
   M("ad_position")->insert(array(

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:44:"./template/pc/rainbow/goods\ajaxComment.html";i:1568702283;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:44:"./template/pc/rainbow/goods\ajaxComment.html";i:1616701750;}*/ ?>
 <script src="/public/js/viewer/viewer.min.js"></script>
 <link rel="stylesheet" href="/public/css/viewer.min.css">
 <?php if(is_array($commentlist) || $commentlist instanceof \think\Collection || $commentlist instanceof \think\Paginator): $i = 0; $__LIST__ = $commentlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?>

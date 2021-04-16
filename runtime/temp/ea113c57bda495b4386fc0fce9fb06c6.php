@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:42:"./template/pc/rainbow/goods\goodsInfo.html";i:1568702283;s:65:"D:\wamp\www\tpshop_cyb\www\template\pc\rainbow\public\header.html";i:1568702283;s:78:"D:\wamp\www\tpshop_cyb\www\template\pc\rainbow\goods\goodsInfoCombination.html";i:1568702283;s:73:"D:\wamp\www\tpshop_cyb\www\template\pc\rainbow\goods\goodsInfoDetail.html";i:1568702283;s:65:"D:\wamp\www\tpshop_cyb\www\template\pc\rainbow\public\footer.html";i:1568702283;s:71:"D:\wamp\www\tpshop_cyb\www\template\pc\rainbow\public\sidebar_cart.html";i:1568702283;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:42:"./template/pc/rainbow/goods\goodsInfo.html";i:1616701750;s:54:"H:\www\lzx_mall\template\pc\rainbow\public\header.html";i:1616701750;s:67:"H:\www\lzx_mall\template\pc\rainbow\goods\goodsInfoCombination.html";i:1616701750;s:62:"H:\www\lzx_mall\template\pc\rainbow\goods\goodsInfoDetail.html";i:1616701750;s:54:"H:\www\lzx_mall\template\pc\rainbow\public\footer.html";i:1616701750;s:60:"H:\www\lzx_mall\template\pc\rainbow\public\sidebar_cart.html";i:1616701750;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -251,7 +251,7 @@
 								</div>
 							</div>
 							<div class="advertisement_down">
-								<?php $pid =100+$kr;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1569546000 and end_time >= 1569546000 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("5")->select();
+								<?php $pid =100+$kr;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1617105600 and end_time >= 1617105600 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("5")->select();
 if(is_array($ad_position) && !in_array($pid,array_keys($ad_position)) && $pid)
 {
   M("ad_position")->insert(array(
@@ -295,7 +295,7 @@ foreach($result as $key=>$v3):
 								</a>
 								<?php endforeach; ?>
 							</div>
-							<?php $pid =51;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1569546000 and end_time >= 1569546000 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("1")->select();
+							<?php $pid =51;$ad_position = M("ad_position")->cache(true,TPSHOP_CACHE_TIME)->column("position_id,position_name,ad_width,ad_height","position_id");$result = M("ad")->where("pid=$pid  and enabled = 1 and start_time <= 1617105600 and end_time >= 1617105600 ")->order("orderby desc")->cache(true,TPSHOP_CACHE_TIME)->limit("1")->select();
 if(is_array($ad_position) && !in_array($pid,array_keys($ad_position)) && $pid)
 {
   M("ad_position")->insert(array(

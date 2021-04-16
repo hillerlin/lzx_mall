@@ -1,4 +1,0 @@
-<?php
-//000031104000
- exit();?>
-[{"goods_id":59,"goods_name":"\u4ebf\u8272\uff08ESR\uff09\u534e\u4e3ap10\u94a2\u5316\u819c p10\u624b\u673a\u819c \u975e\u5168\u5c4f\u8986\u76d6\u9ad8\u6e05\u900f\u660e\u9632\u6307\u7eb9\u73bb\u7483\u8d34\u819c","shop_price":"19.90"}]

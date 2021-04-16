@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./application/admin/view/index\index.html";i:1568702273;s:62:"D:\TPshop_tp5_20210401\application\admin\view\public\left.html";i:1568702273;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:41:"./application/admin/view/index\index.html";i:1616701706;s:55:"H:\www\lzx_mall\application\admin\view\public\left.html";i:1616701706;}*/ ?>
 <!doctype html>
 <html>
 <head>

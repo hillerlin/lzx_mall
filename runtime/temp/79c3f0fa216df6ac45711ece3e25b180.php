@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:41:"./application/admin/view/admin\login.html";i:1568702273;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:41:"./application/admin/view/admin\login.html";i:1616701706;}*/ ?>
 <!doctype html>
 <meta name=”renderer” content=”webkit”>
 <meta http-equiv=”X-UA-Compatible” content=”IE=Edge,chrome=1″ >
